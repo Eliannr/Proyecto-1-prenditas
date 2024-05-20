@@ -1,0 +1,30 @@
+.icon {
+  width: 100px;
+  height: 100px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.principal {
+  background-color: black;
+}
+
+.text {
+  color: #c1066f;
+  font-family: "playfair display", serif;
+}
+
+.navbar .nav-link {
+  color: #c1066f;
+  text-align: right;
+}
+
+.navbar .nav-link:hover {
+  color: #fa0ce6;
+}
+
+/*# sourceMappingURL=main.css.map */
