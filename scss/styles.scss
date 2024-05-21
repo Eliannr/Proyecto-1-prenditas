@@ -7,7 +7,7 @@
     box-sizing: border-box;
 }
 
-.principal{
+.bgc{
     background-color: $principal;
 }
 
@@ -19,14 +19,35 @@
     @include text;
 
 }
+header{
+    border-bottom: 1px solid $secundario;
+}
 .navbar .nav-link {
     color: $secundario; 
     text-align: right;
+    gap: 20px;
+}
+.img{
+    @extend %img;
 }
 
 .navbar .nav-link:hover {
     color: #fa0ce6 ;
   }
+
 main{
     display: grid;
+    background-color: $principal;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows:repeat(4,100px);
+
+    .img-3{
+        display: none;
+    }
+    .img-2{
+        display: none;
+    }
+    .img-1{
+        display: none;
+    }
 }
