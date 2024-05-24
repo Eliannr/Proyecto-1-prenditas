@@ -41,7 +41,7 @@ header {
 }
 
 .animacion:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 .navbar .nav-link:hover {
@@ -54,6 +54,8 @@ main {
   padding-top: 20px;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: repeat(10, 100px);
+  padding-left: 35px;
+  padding-right: 35px;
 }
 main a {
   text-decoration: none;
